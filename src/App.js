@@ -1,10 +1,10 @@
 import './App.css';
-import {FunctionalComp} from './components/FunctionalComp';
+import { FunctionalComponent } from './components/FunctionalComponent';
 
 function App() {
   return (
     <div className="App">
-     <FunctionalComp/>
+     <FunctionalComponent/>
     </div>
   );
 }

@@ -6,6 +6,6 @@ import React from 'react'
 //   )
 // }
 
-export const FunctionalComp=()=><div>FunctionalComp1</div>
+export const FunctionalComponent=()=><div>Functional Component</div>
 
 // export default FunctionalComp
