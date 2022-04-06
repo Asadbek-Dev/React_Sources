@@ -3,18 +3,30 @@ import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import { Hello } from './jsx/Hello';
 import Greet from './props/Greet';
+import Message from './State/Message';
 
 function App() {
   return (
     <div className="App">
+      {/* Components */}
+
      {/* <FunctionalComponent/>
      <ClassComponent/>
      <Hello/> */}
-     <Greet name='Asadbek' lastName='Sobirov'>
+
+
+     {/* Props  */}
+
+     {/* <Greet name='Asadbek' lastName='Sobirov'>
        <p>This is children props</p>
      </Greet>
      <Greet name='Hayrulla' lastName='Ahmedov' />
-     <Greet name='Oxunjon' lastName='Ramatov'/>
+     <Greet name='Oxunjon' lastName='Ramatov'/> */}
+
+
+     {/* State */}
+
+     <Message/>
     </div>
   );
 }
