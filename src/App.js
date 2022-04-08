@@ -2,6 +2,7 @@ import './App.css';
 import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import ClassClick from './Events/ClassClick';
+import EventBind from './Events/EventBind';
 import FunctionClick from './Events/FunctionClick';
 import { Hello } from './jsx/Hello';
 import Greet from './props/Greet';
@@ -34,8 +35,9 @@ function App() {
 
      {/* Events */}
 
-     <ClassClick/>
-     <FunctionClick/>
+     {/* <ClassClick/>
+     <FunctionClick/> */}
+     <EventBind/>
 
     </div>
   );
