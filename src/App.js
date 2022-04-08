@@ -18,17 +18,17 @@ function App() {
 
      {/* Props  */}
 
-     {/* <Greet name='Asadbek' lastName='Sobirov'>
+     <Greet name='Asadbek' lastName='Sobirov'>
        <p>This is children props</p>
      </Greet>
      <Greet name='Hayrulla' lastName='Ahmedov' />
-     <Greet name='Oxunjon' lastName='Ramatov'/> */}
+     <Greet name='Oxunjon' lastName='Ramatov'/>
 
 
      {/* State */}
 
      {/* <Message/> */}
-     <Counter/>
+     {/* <Counter/> */}
     </div>
   );
 }
