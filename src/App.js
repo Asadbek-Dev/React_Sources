@@ -2,6 +2,7 @@ import './App.css';
 import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './Conditional Rendering/UserGreeting';
 import ClassClick from './Events/ClassClick';
 import EventBind from './Events/EventBind';
 import FunctionClick from './Events/FunctionClick';
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
       {/* Components */}
 
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
      {/* <FunctionalComponent/>
      <ClassComponent/>
      <Hello/> */}
@@ -40,6 +41,10 @@ function App() {
      {/* <ClassClick/>
      <FunctionClick/> */}
      {/* <EventBind/> */}
+
+     {/* Conditional Rendering */}
+
+     <UserGreeting/>
 
     </div>
   );
