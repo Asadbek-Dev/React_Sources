@@ -3,6 +3,7 @@ import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import { Hello } from './jsx/Hello';
 import Greet from './props/Greet';
+import Counter from './State/Counter';
 import Message from './State/Message';
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
 
      {/* State */}
 
-     <Message/>
+     {/* <Message/> */}
+     <Counter/>
     </div>
   );
 }
