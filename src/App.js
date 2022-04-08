@@ -1,6 +1,8 @@
 import './App.css';
 import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
+import ClassClick from './Events/ClassClick';
+import FunctionClick from './Events/FunctionClick';
 import { Hello } from './jsx/Hello';
 import Greet from './props/Greet';
 import Counter from './State/Counter';
@@ -18,17 +20,23 @@ function App() {
 
      {/* Props  */}
 
-     <Greet name='Asadbek' lastName='Sobirov'>
+     {/* <Greet name='Asadbek' lastName='Sobirov'>
        <p>This is children props</p>
      </Greet>
      <Greet name='Hayrulla' lastName='Ahmedov' />
-     <Greet name='Oxunjon' lastName='Ramatov'/>
+     <Greet name='Oxunjon' lastName='Ramatov'/> */}
 
 
      {/* State */}
 
      {/* <Message/> */}
      {/* <Counter/> */}
+
+     {/* Events */}
+
+     <ClassClick/>
+     <FunctionClick/>
+
     </div>
   );
 }
