@@ -6,6 +6,7 @@ import UserGreeting from './Conditional Rendering/UserGreeting';
 import ClassClick from './Events/ClassClick';
 import EventBind from './Events/EventBind';
 import FunctionClick from './Events/FunctionClick';
+import FormHandling from './Form/FormHandling';
 import { Hello } from './jsx/Hello';
 import Greet from './props/Greet';
 import Counter from './State/Counter';
@@ -44,7 +45,11 @@ function App() {
 
      {/* Conditional Rendering */}
 
-     <UserGreeting/>
+     {/* <UserGreeting/> */}
+
+
+     {/* Form */}
+     <FormHandling/>
 
     </div>
   );
