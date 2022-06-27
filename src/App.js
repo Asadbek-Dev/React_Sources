@@ -3,6 +3,8 @@ import ClassComponent from './components/ClassComponent';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './Conditional Rendering/UserGreeting';
+import ComponentC from './Context/ComponentC';
+import { UserProvider } from './Context/userContext';
 import ClassClick from './Events/ClassClick';
 import EventBind from './Events/EventBind';
 import FunctionClick from './Events/FunctionClick';
@@ -15,6 +17,9 @@ import Message from './State/Message';
 function App() {
   return (
     <div className="App">
+      <UserProvider value='Asadbek' >
+      <ComponentC/>
+      </UserProvider>
       
       {/* Components */}
 
@@ -50,7 +55,7 @@ function App() {
 
 
      {/* Form */}
-     <FormHandling/>
+     {/* <FormHandling/> */}
 
     </div>
   );

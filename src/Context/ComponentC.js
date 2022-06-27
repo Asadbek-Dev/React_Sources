@@ -1,7 +1,14 @@
 import React from 'react'
+import { UserConsumer } from './userContext'
 
 export default function ComponentC() {
   return (
-    <div>ComponentC</div>
+    <UserConsumer>
+        {
+            username => {
+                return <div>Hello {username}</div>
+            }
+        }
+    </UserConsumer>
   )
 }
