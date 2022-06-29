@@ -6,7 +6,7 @@ export default function ComponentC() {
     <UserConsumer>
         {
             username => {
-                return <div>Hello {username}</div>
+                return <div>Hello {username} Na Gap</div>
             }
         }
     </UserConsumer>
